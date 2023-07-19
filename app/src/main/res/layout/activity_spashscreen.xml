@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a5e3e0"
+    tools:context=".splashscreen">
+<!--    76d7c4-->
+
+    <TextView
+    android:id="@+id/appname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:text="Let's find your cgpa!"
+        android:fontFamily="@font/poppin"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/appname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="By Ayush · Divyansh"
+        android:fontFamily="@font/poppin"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_centerInParent="true"
+    app:lottie_autoPlay="true"
+    android:id="@+id/lottie"
+    android:elevation="5dp"
+    app:lottie_rawRes="@raw/calculator" />
+
+
+    </RelativeLayout>

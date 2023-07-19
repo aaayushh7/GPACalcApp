@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="black">#D33E3E</color>-->
+    <color name="ed1">#424040</color>
+    <color name="ed1Text">#fffce6</color>
+    <color name="androidBg">#676762</color>
+    <color name="tableL">#61615F</color>
+    <color name="ed2">#9F9E94</color>
+    <color name="buttonBg">#373636</color>
+    <color name="black">#FFFEFE</color>
+    <color name="nextButton">#78b075</color>
+    <color name="black2">#FF000000</color>
+    <color name="calcButton">#A569D3</color>
+    <color name="mode">#8C91B1</color>
+    <color name="clik">#59F3E1E1</color>
+    <color name="bgTitle">#1c1c1c</color>
+    <color name="bgText">#dfded4</color>
+
+</resources>
